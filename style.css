@@ -23,7 +23,7 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 550px;
 
 }
 /*.link-button{
@@ -92,11 +92,11 @@ section{
         background-color: orange;
       }
       /*Project*/
-        .proj-width{
+            .proj-width{
             width: 25%;
             float: left;
             margin-left: 5%;
-            padding-left: 2%;
+            padding-left: 10%;
            
         }
         .proj-width img{
@@ -113,6 +113,10 @@ section{
           background-color: lightcyan;
           margin: 10px 10px;
           padding-bottom: 10px ;
+
+      }
+      #txt-position{
+          text-align: center;
 
       }
 /*work Inqury*/
