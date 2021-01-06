@@ -1,3 +1,6 @@
+
+font-family: 'Cairo', sans-serif;
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -110,7 +113,7 @@ section{
           color: orangered;
       }
       .proj-color{
-          background-color: lightcyan;
+          background-color: #aee6c4;
           margin: 10px 10px;
           padding-bottom: 10px ;
 
