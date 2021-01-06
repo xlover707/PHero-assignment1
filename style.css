@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #8b798d4f;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+
+}
+/*.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #461497, #cb47ff);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;*/
+    /*Here Me*/
+    .link-button {
+        text-decoration: none;
+        border-radius: 4px;
+        background-color: dodgerblue;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .link-button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .link-button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .link-button:hover span {
+        padding-right: 25px;
+      }
+      
+      .link-button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      /*Download Buttorn*/
+      .down-link-btn {
+        text-decoration: none;
+        background-color: orangered;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      /* Darker background on mouse-over */
+      .down-link-btn:hover {
+        background-color: orange;
+      }
+      /*Project*/
+        .proj-width{
+            width: 25%;
+            float: left;
+            margin-left: 5%;
+            padding-left: 2%;
+           
+        }
+        .proj-width img{
+            width: 100%;
+      }
+      .proj-img{
+        box-shadow: 10px 10px 10px gray;
+        padding-left: 4px;
+      }
+      .proj-highlight{
+          color: orangered;
+      }
+      .proj-color{
+          background-color: lightcyan;
+          margin: 10px 10px;
+          padding-bottom: 10px ;
+
+      }
+/*work Inqury*/
+        .work-inqu{
+        width: 906px;
+        height: 225px;
+        float: left;
+        margin: 10%;
+        padding: 2%;
+        position: absolute;
+
+      }
+      .work-inqu img{
+          width: 100%;
+      }
+      .img-inqu { 
+        margin: 15%; 
+        position: relative; 
+    } 
+
+    .left-text { 
+        position: absolute; 
+        top: 70px; 
+        left: 75px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+
+    } 
+
+    .right-btn { 
+        text-decoration: none;
+        position: absolute;
+        top: 110px; 
+        left: 700px;
+        background-color: orangered;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 20px;
+    } 
+      
